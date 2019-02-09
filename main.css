@@ -100,14 +100,14 @@
   .timeline::after {
   left: 31px;
   }
-
+  
   /* Full-width containers */
   .container {
   width: 100%;
   padding-left: 70px;
   padding-right: 25px;
   }
-
+  
   /* Make sure that all arrows are pointing leftwards */
   .container::before {
   left: 60px;
@@ -120,7 +120,7 @@
   .left::after, .right::after {
   left: 15px;
   }
-
+  
   /* Make all right containers behave like the left ones */
   .right {
   left: 0%;
@@ -128,7 +128,7 @@
 }
 header{
   background-image: url("https://lh3.googleusercontent.com/p_6tgJlyzdvRFhkESL1VjYwOLK6bV0n6Q_1TZpDnAj30l1firXRBBq_mETxwL8H4kuZS3DYPqCnjPydV9hgVcVnsKySAaemaYiSlVExx2MSc_ESwbKtWza4OyE6f1EIN8rKOcc3eG6AdvECe0JugTB8SDtvi9r7wUMZYhp8eaC72ff2RDwKdwhO5evEoc5e6BRLiFUl5NkO4FhEaDTGps-zOD7ZSz-7hFqTO3fu-ged2na6Xz5_YztMPpayJT215vc40HJi0tRk227pRbdI_0yOsYhDXA5WTM_MLtBhQjY0Rbt5ovvsQD1DN1OxGJccnDmWIcornFvIad08ULc0FwOUm1PAT1UfSzOSnxEYnRaln9MeFfxCdx9ONnvagIt-Pm3FJ_NPspOeT6LMZAKwZq9_WmT6PCfHdP2MNUbaCxm6OvFheYRz1wvKUe_kxYkRrMwxK_6xt8OUthWKykGa4LC273bjI_pcK-rsppt5MnoZDQu6PC_1eVQ-hrbfWNDvHTKiefbG3V3k9Hr0y2CDRGoqgDs-EZNavFYqtBUrjnvgmS9nIzpwp34tiMCBt6pgTCqkoFbnwOJ033N7b6bhyjyxL-LmOeiGGshb_fgTWeFKHTrLBwCb0fgQDKlzRHhuJ9xA86gfKCfuIyI1dBNtyJIW67Scc1IM=w1425-h802-no");
-  height: 800px;
+  height: 800px; 
   background-color: transparent;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -136,11 +136,11 @@ header{
   background-size: cover;
   min-height: 0px;
   margin: -10px -10px -10px -10px;
-  padding: 10px 0px 5px 0px;
+  padding: 10px 0px 5px 0px; 
 }
 
 .center_hdr{
-  line-height: 1.5;
+  line-height: 1.5; 
   font-family: 'Montserrat', sans-serif;
   font-weight:normal;
   font-size:300%;
@@ -161,9 +161,9 @@ header{
 }
 
 .center_hdr2{
-
+  
   letter-spacing:0.05em;
-  line-height: 1.5;
+  line-height: 1.5; 
   font-family: 'Montserrat', sans-serif;
   font-weight:normal;
   font-size:300%;
@@ -235,6 +235,7 @@ header{
   margin:-45px 0px 0px 500px;
 }
 .photos{
+  background-color:#E0E0E0;
   margin:-10px -8px 10px -8px;
 }
 .gallery{
@@ -250,21 +251,21 @@ header{
   height: 100%;
   width: 100%;
   margin:10px 0px 0px 56px;
-  -webkit-filter:grayscale(100%);
+  -webkit-filter:grayscale(100%);  
   transform: translate(-20%,-20%);
 }
 .pics:hover{
   max-height:100%;
-  max-width:100%;
+  max-width:100%; 
   webkit-filter:grayscale(0%);
   -webkit-filter:saturate(110%);
-
+  
 }
 
 footer{
   font-family: 'Montserrat', sans-serif;
-  background-color:#80DEEA;
-  margin:700px -10px 0px -10px;
+  background-color:#E0E0E0;
+  margin:640px -10px 0px -10px;  
 }
 
 .footer_h1{
@@ -276,7 +277,7 @@ footer{
 .footer_main{
   font-weight:normal;
   font-size:100%;
-  margin:50px auto 50px auto;
+  margin:50px auto 0px auto;
   padding:0px;
   width:50%;
 }
@@ -290,7 +291,7 @@ footer img{
    margin:auto 0px 50px 80px;
    width: 14%;
    height: auto;
-
+   
 }
 a:link{
   font-weight:500;
