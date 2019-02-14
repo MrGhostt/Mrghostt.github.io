@@ -87,6 +87,8 @@
 
 /* The actual content */
 .content {
+  line-height: 1.5; 
+  font-family: 'Montserrat', sans-serif;
   padding: 20px 30px;
   background-color: white;
   position: relative;
